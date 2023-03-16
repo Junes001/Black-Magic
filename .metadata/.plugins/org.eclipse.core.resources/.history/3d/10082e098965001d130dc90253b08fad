@@ -1,0 +1,28 @@
+package week4;
+import java.util.Scanner;
+
+public class Entry {
+	public static void main(String[] args) {
+			Scanner sc = new Scanner(System.in);
+			ComplexNumbers c1=new ComplexNumbers();
+			c1.Re=sc.nextDouble();
+			c1.Im=sc.nextDouble();
+			ComplexNumbers c2=new ComplexNumbers();
+			c2.Re=sc.nextDouble();
+			c2.Im=sc.nextDouble();}
+			c1.Plus(c1,c2);
+			c1.Sub(c1, c2);
+			c1.Mul(c1,c2);
+			c1.Div(c1, c2);
+			c1.Pow(c1);
+			System.out.println("So Phuc da nhap:"+c1.toString();
+			
+		
+		
+		
+		
+	}}
+	
+	
+
+}

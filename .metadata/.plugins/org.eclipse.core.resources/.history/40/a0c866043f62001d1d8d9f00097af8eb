@@ -1,0 +1,37 @@
+package week5;
+import java.util.Scanner;
+
+public class Point {
+	public double x;
+	public double y;
+	public double space;
+	public Point (double x,double y) {
+		this.x=x;
+		this.y=y;
+
+		}
+    public void getPoint(Scanner sc) {
+        System.out.print("\tNhap hoanh do: ");
+        x = sc.nextDouble();
+        System.out.print("\tNhap tung do: ");
+        y = sc.nextDouble();}
+	public double getX() {
+		return x;
+	}
+	public double getY() {
+		return y;
+	}
+	public double getSpace() {
+		space=Math.sqrt((this.x*this.x+this.y*this.y));
+		return space;
+	}
+	public Point add (Point p1,Point p2) {
+		Point p3=new Point();
+		double a=p1.x+p2.x;
+		double b=p1.y+p2.y;
+		return p3;
+		
+		
+	}
+	}
+

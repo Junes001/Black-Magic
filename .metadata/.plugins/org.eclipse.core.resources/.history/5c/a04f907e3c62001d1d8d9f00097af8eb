@@ -1,0 +1,12 @@
+package week5;
+
+public class Point {
+	public double x;
+	public double y;
+	public double space;
+	public Point (double x,double y,double space) {
+		this.x=x;
+		this.y=y;
+		space=Math.sqrt((this.x*this.x+this.y*this.y));
+		}}
+

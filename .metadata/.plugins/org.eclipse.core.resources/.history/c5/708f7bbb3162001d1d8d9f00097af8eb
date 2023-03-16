@@ -1,0 +1,14 @@
+package week5;
+
+public class Entry {
+	public void main(String[] args) {
+		Students s1=new Students("Vuong",20, "Nam",10,10,10, null);
+		s1.out();
+		Students s2=new Students("Hoang",20, "Nam",0,0,0, null);
+
+		s2.out();
+		
+		
+		
+	}
+}

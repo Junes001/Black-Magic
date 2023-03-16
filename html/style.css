@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0pc;
+    
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav li a{
+    text-transform: uppercase;
+    list-style-type: none;
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 20px;
+    display: inline-block;
+}
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+
+
+}
+#nav .subnav{
+    /*display: none;*/
+    position:absolute;
+
+
+}
+
+#header{
+    display: block;
+    height: 46px;
+    background-color: #000;
+
+
+}
+#slider{
+    height: 600px;
+    color: #ccc;
+}

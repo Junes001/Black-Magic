@@ -1,0 +1,9 @@
+package week5;
+import java.util.Scanner;
+public class entry1 {
+	    public static void main(String[] args){
+	        Scanner sc = new Scanner(System.in);
+	        Point p1 = new Point(2,3);
+	        Point p2 = new Point(4,5);
+	
+}

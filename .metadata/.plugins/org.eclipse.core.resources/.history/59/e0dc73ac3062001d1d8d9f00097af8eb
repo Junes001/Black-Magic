@@ -1,0 +1,59 @@
+package week5;
+
+public class Students {
+	public String name;
+	public int age;
+	public String sex;
+	public double informatics_mark;
+	public double english_mark;
+	public double philosophy_mark;
+	public double mark;
+	public String scholarship;
+	public Students(String name,int age,String sex,double informatics_mark,double english_mark,double philosophy_mark,String scholarship) {
+		this.name=name;
+		age=20;
+		this.sex=sex;
+		this.informatics_mark=informatics_mark;
+		this.english_mark=english_mark;
+		this.philosophy_mark=philosophy_mark;
+		scholarship="10000";
+	}
+	public double getInfor() {
+		return informatics_mark;
+	}
+	public double getEng() {
+		return english_mark;
+	}
+	public double gerPhi() {
+		return philosophy_mark;
+	}
+	
+	public double scholarship() {
+		mark=informatics_mark+english_mark+philosophy_mark;
+		if (mark>=9) {
+			this.scholarship="200000";
+		}
+		else if(mark>= 8 & mark<9 ) {
+			this.scholarship="160000";
+			
+		}
+		else if(mark>=7 & mark <8) {
+			this.scholarship="120000";
+		}
+		else if(mark>=6 &mark<7) {
+			this.scholarship="90000";
+		}
+		return mark;
+	}
+	public void out() {
+		System.out.println(Ho ten sinh vien:+this.name);
+		System.out.println(Tuoi sinh vien sinh vien:+this.age);
+		System.out.println(Gioi tinh sinh vien:+this.sex);
+		System.out.println(Diem trung binh snh vien sinh vien:+this.mark);
+		System.out.println(Hoc bong sinh vien:+this.scholarship);
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+package week5;
+import java.util.Scanner;
+public class entry1 {
+	    public static void main(String[] args){
+	        Scanner sc = new Scanner(System.in);
+	        Point p1 = new Point();
+	        p1.getPoint(sc);
+	        p1.out();
+	        p1.getSpace();
+	        
+}}
+//Ngo Ngoc Vuong 20206221

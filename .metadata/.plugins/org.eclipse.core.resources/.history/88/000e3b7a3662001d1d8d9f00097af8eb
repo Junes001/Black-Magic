@@ -1,0 +1,31 @@
+package week5;
+
+public class Sinhvien2007 extends Students{
+	public double good_mark;
+	public Sinhvien2007(String name, int age, String sex, double informatics_mark, double english_mark,
+			double philosophy_mark, String scholarship,double good_mark) {
+		super(name, age, sex, informatics_mark, english_mark, philosophy_mark, scholarship);
+		this.good_mark=good_mark;
+		
+	}
+	public double scholarship() {
+		mark=(informatics_mark+english_mark+philosophy_mark+good_mark)/4;
+		if (mark>=9) {
+			this.scholarship="200000";
+		}
+		else if(mark>= 8 & mark<9 ) {
+			this.scholarship="160000";
+			
+		}
+		else if(mark>=7 & mark <8) {
+			this.scholarship="120000";
+		}
+		else if(mark>=6 &mark<7) {
+			this.scholarship="90000";
+		}
+		return mark;}
+	public void out() {
+		System.out.println("good_mark:"+this.good_mark);
+	}
+
+}

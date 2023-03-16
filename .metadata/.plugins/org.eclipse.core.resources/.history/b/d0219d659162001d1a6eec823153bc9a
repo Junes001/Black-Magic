@@ -1,0 +1,17 @@
+package week5;
+import java.util.Scanner;
+public class entry1 {
+	    public static void main(String[] args){
+	        Scanner sc = new Scanner(System.in);
+	        Point p1 = new Point();
+	        p1.getPoint(sc);
+	        Point p2 = new Point();
+	        p2.getPoint(sc);
+	        System.out.println("Khoang cach tu p1 den goc toa do: "+p1.getSpace());
+	        System.out.println("Khoang cach tu p1 den goc toa do: "+p2.getSpace());
+	        p1.add(p1, p2);
+	        p1.Tung(p2).out();
+	        p1.Hoanh(p2).out();
+	        p1.Goc(p2).out();
+	        
+}}

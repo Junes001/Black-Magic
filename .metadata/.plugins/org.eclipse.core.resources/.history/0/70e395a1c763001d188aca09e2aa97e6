@@ -1,0 +1,22 @@
+package week4;
+import java.util.Scanner;
+
+public class Entry {
+	public static void main(String[] args) {
+		try (Scanner sc = new Scanner(System.in)) {
+			ComplexNumbers c1=new ComplexNumbers();
+			c1.Re=sc.nextDouble();
+			c1.Im=sc.nextDouble();
+			ComplexNumbers c2=new ComplexNumbers();
+			c2.Re=sc.nextDouble();
+			c2.Im=sc.nextDouble();
+			
+		}
+		
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package week5;
+import java.util.Scanner;
+public class main {
+	public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        POINT Diem_1 = new POINT();
+        POINT Diem_2 = new POINT();
+	System.out.print("\tNhap vao toa do hoanh: ");
+    a = sc.nextDouble();
+    System.out.print("\tNhap vao toa do tung: ");
+    b = sc.nextDouble();
+}

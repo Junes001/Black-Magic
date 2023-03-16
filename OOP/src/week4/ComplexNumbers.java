@@ -1,0 +1,35 @@
+package week4;
+//Ngô Ngọc Vương 20206221
+public class ComplexNumbers {
+	public double Re;
+	public double Im;
+	public ComplexNumbers() {
+		this.Re=Re;
+		this.Im=Im;
+		// TODO Auto-generated constructor stub
+	}
+	public ComplexNumbers Plus(ComplexNumbers c1,ComplexNumbers c2) {
+		double Re=c1.Re+c2.Re;
+		double Im=c1.Im+c2.Im;
+		return new ComplexNumbers(Re,Im);}
+	public ComplexNumbers Sub(ComplexNumbers c1,ComplexNumbers c2) {
+			double Re=c1.Re-c2.Re;
+			double Im=c1.Im-c2.Im;
+			return new ComplexNumbers(Re,Im);		
+	}
+	public ComplexNumbers Mul(ComplexNumbers c1,ComplexNumbers c2) {
+		double Re=(c1.Re*c2.Re)-(c1.Im*c2.Im);
+		double Im=c1.Re*c2.Im+c1.Im*c2.Re;
+		return new ComplexNumbers(Re,Im);}
+	public ComplexNumbers Div(ComplexNumbers c1,ComplexNumbers c2) {
+		double Re=(c1.Re*c2.Im+c1.Im*c2.Re)/(Math.pow(c1.Re, 2)+Math.pow(c1.Im, 2));
+		double Im=(c1.Re*c2.Im-c1.Im*c2.Re)/(Math.pow(c1.Re, 2)+Math.pow(c1.Im, 2));
+		return new ComplexNumbers(Re,Im);}
+	public ComplexNumbers Pow(ComplexNumbers c1) {
+		double Re=(c1.Re*c1.Re)-(c1.Im*c1.Im);
+		double Im=2*(c1.Re*c1.Im);
+		return new ComplexNumbers(Re,Im);}
+	public String ToString() {
+		return Re+" "+Im+"i";}
+		
+	}
